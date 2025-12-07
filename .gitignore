@@ -1,0 +1,17 @@
+# npm
+node_modules
+*.log
+*.gz
+
+.env
+
+/uploads/**
+!/uploads/**/
+!/uploads/**/.gitkeep
+
+# Coveralls
+.nyc_output
+coverage
+
+# Benchmarking
+benchmarks/graphs
